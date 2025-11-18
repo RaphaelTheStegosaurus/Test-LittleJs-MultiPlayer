@@ -6,8 +6,8 @@
 
 "use strict";
 class Actor extends EngineObject {
-  constructor() {
-    super();
+  constructor(pos, size) {
+    super(pos, size);
   }
   update() {}
 }
