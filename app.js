@@ -9,6 +9,7 @@ class Actor extends EngineObject {
   constructor() {
     super();
   }
+  update() {}
 }
 ///////////////////////////////////////////////////////////////////////////////
 function gameInit() {
