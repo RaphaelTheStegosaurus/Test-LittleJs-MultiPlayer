@@ -13,6 +13,7 @@ class Actor extends EngineObject {
 }
 ///////////////////////////////////////////////////////////////////////////////
 function gameInit() {
+  new Actor(vec2(0, 0), vec2(1, 1));
   // called once after the engine starts up
   // setup the game
 }
