@@ -5,7 +5,7 @@
 */
 
 "use strict";
-
+class Actor extends EngineObject {}
 ///////////////////////////////////////////////////////////////////////////////
 function gameInit() {
   // called once after the engine starts up
